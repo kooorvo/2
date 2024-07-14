@@ -1,0 +1,15 @@
+footer{
+    background-color: black;
+}
+
+footer p:nth-child(1){
+    color: white;
+}
+
+footer a{
+    color: white;
+}
+
+footer h1{
+    color: white;
+}
