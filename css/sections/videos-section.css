@@ -1,0 +1,18 @@
+.videos h2{
+    font-size: 1.7rem;
+    text-decoration: underline;
+    text-decoration-color: greenyellow;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.videos p{
+    margin-left: 50px;
+    width: 1750px;
+}
+
+.videos iframe{
+    margin-left: 50px;
+    margin-top: 10px;
+}
