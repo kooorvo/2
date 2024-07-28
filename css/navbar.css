@@ -5,6 +5,7 @@ nav {
   background-color: rgb(157, 232, 44);
   padding-bottom: 5px;
   height: 100px;
+  width: 100;
 }
 
 nav h1 {
@@ -15,7 +16,7 @@ nav h1 {
 nav ul {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 50px;
   font-size: 1.2rem;
   font-weight: bold;
 }
@@ -34,7 +35,8 @@ nav button {
   border-style: solid;
   padding: 10px 10px;
   border-radius: 12px;
-  margin-right: 50px;
+  margin-right: 60px;
+  margin-top: 10px;
   font-size: 0.9rem;
   font-weight: bold;
   transition: background-color, border-color 0.2s;

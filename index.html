@@ -13,19 +13,19 @@
       <div class="section">
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Videos</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#videos">Videos</a></li>
         </ul>
       </div>
-      <a href="#"><button>Contact Me</button></a>
+      <a href="/views/contact-page.html"><button>Contact Me</button></a>
     </nav>
     <main>
       <header>
         <h2>Welcome To My Personnal Website</h2>
         <h1>Koorvo</h1>
-        <i class="fa-solid fa-chevron-down">See More</i>
+        <a href="#about"><i class="fa-solid fa-chevron-down seeMore-btn">&nbsp;See More</i></a>
       </header>
-      <!-- <section class="about" id="about">
+      <section class="about" id="about">
         <h2>About</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis
@@ -40,6 +40,8 @@
           tincidunt nulla porttitor a. Suspendisse sit amet congue lectus.
         </p>
       </section>
+      <!-- in style.css -->
+      <button onclick="scrollUp()" class="scrollUpBtn" id="scrollUpBtn"><i class="fa-solid fa-chevron-up"></i></button>
       <section class="videos" id="videos">
         <h2>Videos</h2>
         <p>
@@ -56,7 +58,6 @@
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
         ></iframe>
-        <p>Actuel Best Video</p>
         <iframe
           width="560"
           height="315"
@@ -67,13 +68,20 @@
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
         ></iframe>
-        <p>An Other One</p>
       </section>
     </main>
     <footer>
-      <p>&copy;2024 - Koorvo</p>
-      <p><a href="#">Contact me here</a></p>
-      <h1>Logo</h1>
-    </footer> -->
+      <div class="infos">
+        <p>&copy;2024 - Koorvo</p>
+        <p><a href="/views/contact-page.html">Contact me here</a></p>
+        <h1>Logo</h1>
+      </div>
+      <div class="social">
+        <a href="https://www.youtube.com/@koorvo_" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://github.com/kooorvo" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-github"></i></a>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
   </body>
 </html>

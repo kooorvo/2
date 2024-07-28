@@ -2,7 +2,8 @@ header {
   background-image: url(../../assets/pexels-andrew-3178786.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 892px;
+  height: 850px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,6 +24,19 @@ header h1 {
   font-size: 5rem;
 }
 
-i {
+i.seeMore-btn {
   color: white;
+}
+
+i.seeMore-btn:hover{
+  animation: 1s linear 0s infinite alternate scale;
+}
+
+@keyframes scale {
+  from{
+    font-size: 1rem;
+  }
+  to{
+    font-size: 1.1rem;
+  }
 }
