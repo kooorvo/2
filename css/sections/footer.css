@@ -1,0 +1,27 @@
+footer{
+    background-color: black;
+    padding: 10px 20px;
+}
+
+footer p:nth-child(1){
+    color: white;
+}
+
+footer a{
+    color: white;
+}
+
+footer h1{
+    color: white;
+    font-size: 1.4rem;
+}
+
+.social{
+    font-size: 1.7rem;
+}
+
+.pdp-footer{
+  position: static;
+  height: 80px;
+  width: 80px;
+}

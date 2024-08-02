@@ -1,0 +1,41 @@
+.websites h2{
+    font-size: 1.7rem;
+    text-decoration: underline;
+    text-decoration-color: greenyellow;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.websites p{
+    margin-left: 50px;
+    width: 1750px;
+    font-size: 1.15rem;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 40px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.img-card1{
+    height: 250px;
+    margin-left: 50px;
+}
+
+.website-title{
+    margin-left: 50px;
+}
+
+.img-card2{
+    height: 250px;
+}
+
+.website-title-span{
+    text-decoration: underline;
+    text-decoration-color: rgb(154, 255, 1);
+}
