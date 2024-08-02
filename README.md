@@ -1,1 +1,3 @@
 Just a website to improve my skills...
+
+To see it use : php -S localhost(port of your choose)
