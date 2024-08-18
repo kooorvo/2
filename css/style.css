@@ -8,6 +8,7 @@
 @import url(sections/videos-section.css);
 @import url(views-css/contact-page.css);
 @import url(sections/website-section.css);
+@import url(sections/langages-section.css);
 
 :root {
   --ROM: "Roboto Mono", monospace;
@@ -39,7 +40,7 @@ body {
 }
 
 /* others */
-.scrollUpBtn{
+.scrollUpBtn {
   position: fixed;
   right: 10px;
   top: 885px;
@@ -49,9 +50,9 @@ body {
   cursor: pointer;
   height: 40px;
   width: 40px;
-} 
+}
 
-.scrollUpBtn i{
+.scrollUpBtn i {
   color: black;
   font-size: large;
 }

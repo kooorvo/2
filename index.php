@@ -4,10 +4,10 @@
       <img src="/assets/pdp.png" alt="Logo" class="pdp">
       <div class="section">
         <ul>
-          <li><a href="#">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#videos">Videos</a></li>
           <li><a href="#websites">Webistes</a></li>
+          <li><a href="#langages">Technologies</a></li>
         </ul>
       </div>
       <a href="/views/contact-page.php"><button>Contact Me</button></a>
@@ -21,7 +21,7 @@
       <section class="about" id="about">
         <h2>About</h2>
         <p>
-          Hi ! My name is Koorvo (or Koorvonix sometimes), I'm 15 years old and I love creating websites using HTML, CSS and PHP now. I also like to create YouTube videos (there are 2 videos after the "about" section). I created this website to help people discover me. This is a portfolio. I started web developpement after my observation stage (that's something we do at school in France). There's many many technologies that I want to learn like : javascript, vue.js, react.js... 
+          Hi ! My name is Koorvo (or Koorvonix sometimes), I'm 15 years old and I love creating websites. I also like to create YouTube videos (there are 2 videos after the "about" section). I created this website to help people discover me. This is a portfolio. I started web developpement after my observation stage (that's something we do at school in France). There's many many technologies that I want to learn like : javascript, vue.js, react.js... 
         </p>
       </section>
       <!-- in style.css -->
@@ -36,7 +36,7 @@
           height="315"
           src="https://www.youtube.com/embed/2V6f0r0LZcY?si=jo919RFlxyuCwIP4"
           title="YouTube video player"
-          frameborder="0"
+          frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
@@ -66,18 +66,18 @@
           </div>
         </div>
       </section>
+      <section class="langages" id="langages">
+        <h2>Technologies</h2>
+        <p>I create this website with php (and therefore html), css and a little of bit of javascript. These are the programming langages I   "know".</p>
+        <div class="-programming-icons">
+          <i class="fa-brands fa-php"></i>
+          <i class="fa-brands fa-css3-alt"></i>
+          <i class="fa-brands fa-js"></i>
+        </div>
+      </section>
     </main>
-    <footer>
-      <div class="infos">
-        <p>&copy;2024 - Koorvo</p>
-        <p><a href="/views/contact-page.php">Contact me here</a></p>
-        <img src="/assets/pdp.png" alt="Logo" class="pdp-footer">
-      </div>
-      <div class="social">
-        <a href="https://www.youtube.com/@koorvo_" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a>
-        <a href="https://github.com/kooorvo" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-github"></i></a>
-      </div>
-    </footer>
+    
+    <?php require "footer.php" ?>
 
     <script src="js/main.js"></script>
   </body>

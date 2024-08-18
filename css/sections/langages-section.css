@@ -1,0 +1,35 @@
+.langages h2 {
+  font-size: 1.7rem;
+  text-decoration: underline;
+  text-decoration-color: greenyellow;
+  margin-top: 25px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+.langages p {
+  margin-left: 50px;
+  width: 1750px;
+  font-size: 1.15rem;
+}
+
+.langages .fa-php {
+  margin-left: 50px;
+  color: #777bb3;
+}
+
+.langages .fa-css3-alt {
+  margin-left: 20px;
+  color: #2965f1;
+}
+
+.langages .fa-js {
+  margin-left: 30px;
+  color: #f0db4f;
+}
+
+.langages i {
+  font-size: 3rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
